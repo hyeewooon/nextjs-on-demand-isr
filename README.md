@@ -40,9 +40,9 @@ yarn client
 yarn start
 ```
 
-Open [http://localhost:3000/post/${id}](http://localhost:3000/post/1) with your browser to see the result.
+Open [http://localhost:3000/post/:id](http://localhost:3000/post/1) with your browser to see the result.
 
-the server runs on port 4000. You can set the port by using the following command:
+The server runs on port 4000. You can set the port by using the following command:
 
 ```
 json-server --watch db.json --port 4000
